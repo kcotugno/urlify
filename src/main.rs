@@ -44,7 +44,7 @@ fn encode(value: &str) -> String {
                 }
             }
         } else {
-            panic!("Not valid ASCII");
+            panic!("Encountered an invalid ASCII character");
         }
     }
 
